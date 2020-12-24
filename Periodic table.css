@@ -1,0 +1,73 @@
+
+
+body {
+  font-size: 14px;
+}
+
+table {
+  text-align: center;
+}
+
+caption {
+  font-size: 3rem;
+}
+
+.symbol {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.blank-block {
+  visibility: hidden;
+}
+
+td {
+  //width: 6.25rem;
+  width: 4rem;
+  border-style: inset;
+}
+
+.reactive-nonmetals {
+  background-color: hsl(60, 63%, 80%);
+}
+
+.alkali-metals {
+  background-color: hsl(0, 63%, 80%);
+}
+
+.transition-metals {
+  background-color: hsl(195, 63%, 80%);
+}
+
+.alkaline-earth-metals {
+  background-color: hsl(255, 63%, 80%);
+}
+
+.post-transition-metals {
+  background-color: hsl(120, 63%, 80%);
+}
+
+.metalloids {
+  background-color: hsl(45, 63%, 80%);
+}
+
+.noble-gasses {
+  background-color: hsl(15, 63%, 80%);
+}
+
+.unknown {
+  background-color: hsl(15, 0%, 80%);
+}
+
+.lanthanides {
+  background-color: hsl(210, 75%, 65%);
+}
+
+.actinides {
+  background-color: hsl(165, 35%, 70%);
+}
+
+.spacing-row {
+  height: 1.875rem;
+  visibility: hidden;
+}
