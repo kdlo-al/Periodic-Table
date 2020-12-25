@@ -1,11 +1,17 @@
 
 
 body {
-  font-size: 14px;
+  /*------*/
+}
+
+#top{
+  overflow-x: auto;
 }
 
 table {
   text-align: center;
+  table-layout: fixed;
+  width: 92.81rem
 }
 
 caption {
@@ -13,7 +19,7 @@ caption {
 }
 
 .symbol {
-  font-size: xx-large;
+  font-size: 0.974rem;
   font-weight: bold;
 }
 
@@ -22,9 +28,8 @@ caption {
 }
 
 td {
-  //width: 6.25rem;
-  width: 4rem;
   border-style: inset;
+  font-size: 0.875rem;
 }
 
 .reactive-nonmetals {
