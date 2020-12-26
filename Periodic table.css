@@ -30,7 +30,13 @@ caption {
 td {
   border-style: inset;
   font-size: 0.875rem;
+  overflow-x: hidden;
+  /*word-break: break-all;*/
 }
+
+/*.hoverK:hover {
+  add color here to highlight
+}*/
 
 .reactive-nonmetals {
   background-color: hsl(60, 63%, 80%);
@@ -76,3 +82,15 @@ td {
   height: 1.875rem;
   visibility: hidden;
 }
+
+@media only screen and (max-width: 1620px) {
+  table {width: 46.375rem}
+  .symbol {font-size: .1875rem}
+  td {font-size: .1875rem}
+}
+
+/*@media only screen and (max-width: 890px) {
+  table {width: 28rem}
+  .symbol {font-size: }
+  td {font-size: }
+}*/ /*add back later when you get the spans added to only show the symbol*/
