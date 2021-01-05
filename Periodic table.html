@@ -3,125 +3,129 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Periodic Table</title>
     <link href="Periodic table.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+
+  <div id="centerBox" align="center">
+    <iframe id="frm" src="" title="Wikipedia"></iframe>
+  </div>
     
   <div id="top">
     <table align="center">
         <caption>Periodic Table of Elements</caption>
-          <td class="reactive-nonmetals hoverH">1<br><span class="symbol">H</span><br>Hydrogen<br>1.008</td>
+          <td id="clickH" class="reactive-nonmetals hoverH">1<br><span class="symbol">H</span><br>Hydrogen<br>1.008</td>
           <td class="blank-block" colspan="16"></td>
-          <td class="noble-gasses hoverHE">2<br><span class="symbol">He</span><br>Helium<br>4.0026</td>
+          <td id="clickHE" class="noble-gasses hoverHE">2<br><span class="symbol">He</span><br>Helium<br>4.0026</td>
         </tr>
         
         <tr>
-          <td class="alkali-metals hoverLI">3<br><span class="symbol">Li</span><br>Lithium<br>6.94</td>
-          <td class="alkaline-earth-metals hoverBE">4<br><span class="symbol">Be</span><br>Beryllium<br>9.0122</td>
+          <td id="clickLI" class="alkali-metals hoverLI">3<br><span class="symbol">Li</span><br>Lithium<br>6.94</td>
+          <td id="clickBE" class="alkaline-earth-metals hoverBE">4<br><span class="symbol">Be</span><br>Beryllium<br>9.0122</td>
           <td class="blank-block" colspan="10"></td>
-          <td class="metalloids hoverB">5<br><span class="symbol">B</span><br>Boron<br>10.81</td>
-          <td class="reactive-nonmetals hoverC">6<br><span class="symbol">C</span><br>Carbon<br>12.011</td>
-          <td class="reactive-nonmetals hoverN">7<br><span class="symbol">N</span><br>Nitrongen<br>14.007</td>
-          <td class="reactive-nonmetals hoverO">8<br><span class="symbol">O</span><br>Oxgen<br>15.999</td>
-          <td class="reactive-nonmetals hoverF">9<br><span class="symbol">F</span><br>Fluorine<br>18.998</td>
-          <td class="noble-gasses hoverNE">10<br><span class="symbol">Ne</span><br>Neon<br>20.180</td>
+          <td id="clickB" class="metalloids hoverB">5<br><span class="symbol">B</span><br>Boron<br>10.81</td>
+          <td id="clickC" class="reactive-nonmetals hoverC">6<br><span class="symbol">C</span><br>Carbon<br>12.011</td>
+          <td id="clickN" class="reactive-nonmetals hoverN">7<br><span class="symbol">N</span><br>Nitrongen<br>14.007</td>
+          <td id="clickO" class="reactive-nonmetals hoverO">8<br><span class="symbol">O</span><br>Oxgen<br>15.999</td>
+          <td id="clickF" class="reactive-nonmetals hoverF">9<br><span class="symbol">F</span><br>Fluorine<br>18.998</td>
+          <td id="clickNE" class="noble-gasses hoverNE">10<br><span class="symbol">Ne</span><br>Neon<br>20.180</td>
         </tr>
         
         <tr>
-          <td class="alkali-metals hoverNA">11<br><span class="symbol">Na</span><br>Sodium<br>22.98976928</td>
-          <td class="alkaline-earth-metals hoverMG">12<br><span class="symbol">Mg</span><br>Magnesium<br>24.305</td>
+          <td id="clickNA" class="alkali-metals hoverNA">11<br><span class="symbol">Na</span><br>Sodium<br>22.98976928</td>
+          <td id="clickMG" class="alkaline-earth-metals hoverMG">12<br><span class="symbol">Mg</span><br>Magnesium<br>24.305</td>
           <td class="blank-block" colspan="10"></td>
-          <td class="post-transition-metals hoverAI">13<br><span class="symbol">Ai</span><br>Aluminium<br>26.982</td>
-          <td class="metalloids hoverSI">14<br><span class="symbol">Si</span><br>Silicon<br>28.085</td>
-          <td class="reactive-nonmetals hoverP">15<br><span class="symbol">P</span><br>Phosphorus<br>30.974</td>
-          <td class="reactive-nonmetals hoverS">16<br><span class="symbol">S</span><br>Sulfur<br>32.06</td>
-          <td class="reactive-nonmetals hoverCL">17<br><span class="symbol">Cl</span><br>Chloride<br>35.45</td>
-          <td class="noble-gasses hoverAR">18<br><span class="symbol">Ar</span><br>Argon<br>39.948</td>
+          <td id="clickAI" class="post-transition-metals hoverAI">13<br><span class="symbol">Ai</span><br>Aluminium<br>26.982</td>
+          <td id="clickSI" class="metalloids hoverSI">14<br><span class="symbol">Si</span><br>Silicon<br>28.085</td>
+          <td id="clickP" class="reactive-nonmetals hoverP">15<br><span class="symbol">P</span><br>Phosphorus<br>30.974</td>
+          <td id="clickS" class="reactive-nonmetals hoverS">16<br><span class="symbol">S</span><br>Sulfur<br>32.06</td>
+          <td id="clickCL" class="reactive-nonmetals hoverCL">17<br><span class="symbol">Cl</span><br>Chloride<br>35.45</td>
+          <td id="clickAR" class="noble-gasses hoverAR">18<br><span class="symbol">Ar</span><br>Argon<br>39.948</td>
         </tr>
         
         <tr>
-          <td class="alkali-metals hoverK">19<br><span class="symbol">K</span><br>Potassium<br>39.0983</td>
-          <td class="alkaline-earth-metals hoverCA" >20<br><span class="symbol">Ca</span><br>Calcium<br>40.078</td>
-          <td class="transition-metals hoverSC">21<br><span class="symbol">Sc</span><br>Scandium<br>44.955908</td>
-          <td class="transition-metals hoverTI">22<br><span class="symbol">Ti</span><br>Titanium<br>47.867</td>
-          <td class="transition-metals hoverV">23<br><span class="symbol">V</span><br>Vanadium<br>50.9415</td>
-          <td class="transition-metals hoverCR">24<br><span class="symbol">Cr</span><br>Chromium<br>51.9961</td>
-          <td class="transition-metals hoverMN">25<br><span class="symbol">Mn</span><br>Manganese<br>54.938044</td>
-          <td class="transition-metals hoverFE">26<br><span class="symbol">Fe</span><br>Iron<br>55.845</td>
-          <td class="transition-metals hoverCO">27<br><span class="symbol">Co</span><br>Cobalt<br>58.933</td>
-          <td class="transition-metals hoverNI">28<br><span class="symbol">Ni</span><br>Nickle<br>58.693</td>
-          <td class="transition-metals hoverCU">29<br><span class="symbol">Cu</span><br>Copper<br>63.546</td>
-          <td class="post-transition-metals hoverZN">30<br><span class="symbol">Zn</span><br>Zinc<br>65.38</td>
-          <td class="post-transition-metals hoverGA">31<br><span class="symbol">Ga</span><br>Gallium<br>69.723</td>
-          <td class="metalloids hoverGE">32<br><span class="symbol">Ge</span><br>Germanium<br>72.630</td>
-          <td class="metalloids hoverAS">33<br><span class="symbol">As</span><br>Arsenic<br>74.922</td>
-          <td class="reactive-nonmetals hoverSE">34<br><span class="symbol">Se</span><br>Selenium<br>78.971</td>
-          <td class="reactive-nonmetals hoverBR">35<br><span class="symbol">Br</span><br>Bromine<br>79.904</td>
-          <td class="noble-gasses hoverKR">36<br><span class="symbol">Kr</span><br>Krypton<br>83.798</td>
+          <td id="clickK" class="alkali-metals hoverK">19<br><span class="symbol">K</span><br>Potassium<br>39.0983</td>
+          <td id="clickCA" class="alkaline-earth-metals hoverCA" >20<br><span class="symbol">Ca</span><br>Calcium<br>40.078</td>
+          <td id="clickSC" class="transition-metals hoverSC">21<br><span class="symbol">Sc</span><br>Scandium<br>44.955908</td>
+          <td id="clickTI" class="transition-metals hoverTI">22<br><span class="symbol">Ti</span><br>Titanium<br>47.867</td>
+          <td id="clickV" class="transition-metals hoverV">23<br><span class="symbol">V</span><br>Vanadium<br>50.9415</td>
+          <td id="clickCR" class="transition-metals hoverCR">24<br><span class="symbol">Cr</span><br>Chromium<br>51.9961</td>
+          <td id="clickMN" class="transition-metals hoverMN">25<br><span class="symbol">Mn</span><br>Manganese<br>54.938044</td>
+          <td id="clickFE"class="transition-metals hoverFE">26<br><span class="symbol">Fe</span><br>Iron<br>55.845</td>
+          <td id="clickCO" class="transition-metals hoverCO">27<br><span class="symbol">Co</span><br>Cobalt<br>58.933</td>
+          <td id="clickNI" class="transition-metals hoverNI">28<br><span class="symbol">Ni</span><br>Nickle<br>58.693</td>
+          <td id="clickCU" class="transition-metals hoverCU">29<br><span class="symbol">Cu</span><br>Copper<br>63.546</td>
+          <td id="clickZN" class="post-transition-metals hoverZN">30<br><span class="symbol">Zn</span><br>Zinc<br>65.38</td>
+          <td id="clickGA" class="post-transition-metals hoverGA">31<br><span class="symbol">Ga</span><br>Gallium<br>69.723</td>
+          <td id="clickGE" class="metalloids hoverGE">32<br><span class="symbol">Ge</span><br>Germanium<br>72.630</td>
+          <td id="clickAS" class="metalloids hoverAS">33<br><span class="symbol">As</span><br>Arsenic<br>74.922</td>
+          <td id="clickSE" class="reactive-nonmetals hoverSE">34<br><span class="symbol">Se</span><br>Selenium<br>78.971</td>
+          <td id="clickBR" class="reactive-nonmetals hoverBR">35<br><span class="symbol">Br</span><br>Bromine<br>79.904</td>
+          <td id="clickKR" class="noble-gasses hoverKR">36<br><span class="symbol">Kr</span><br>Krypton<br>83.798</td>
         </tr>
         
         <tr>
-          <td class="alkali-metals hoverRB">37<br><span class="symbol">Rb</span><br>Rubidium<br>85.4678</td>
-          <td class="alkaline-earth-metals hoverSR">38<br><span class="symbol">Sr</span><br>Strontium<br>87.62</td>
-          <td class="transition-metals hoverY">39<br><span class="symbol">Y</span><br>Yttrium<br>88.90584</td>
-          <td class="transition-metals hoverZR">40<br><span class="symbol">Zr</span><br>Zirconium<br>91.224</td>
-          <td class="transition-metals hoverNB">41<br><span class="symbol">Nb</span><br>Niobium<br>92.90637</td>
-          <td class="transition-metals hoverMO">42<br><span class="symbol">Mo</span><br>Molybdenum<br>95.95</td>
-          <td class="transition-metals hoverTC">43<br><span class="symbol">Tc</span><br>Technetium<br>(98)</td>
-          <td class="transition-metals hoverRU">44<br><span class="symbol">Ru</span><br>Ruthenium<br>101.07</td>
-          <td class="transition-metals hoverRH">45<br><span class="symbol">Rh</span><br>Rhodium<br>102.91</td>
-          <td class="transition-metals hoverPD">46<br><span class="symbol">Pd</span><br>Palladium<br>106.42</td>
-          <td class="transition-metals hoverAG">47<br><span class="symbol">Ag</span><br>Silver<br>107.87</td>
-          <td class="post-transition-metals hoverCD">48<br><span class="symbol">Cd</span><br>Cadmium<br>112.41</td>
-          <td class="post-transition-metals hoverIN">49<br><span class="symbol">In</span><br>Indium<br>114.82</td>
-          <td class="post-transition-metals hoverSN">50<br><span class="symbol">Sn</span><br>Tin<br>118.71</td>
-          <td class="metalloids hoverSB">51<br><span class="symbol">Sb</span><br>Antimony<br>121.76</td>
-          <td class="metalloids hoverTE">52<br><span class="symbol">Te</span><br>Tellurium<br>127.60</td>
-          <td class="reactive-nonmetals hoverI">53<br><span class="symbol">I</span><br>Iodine<br>126.90</td>
-          <td class="noble-gasses hoverXE">54<br><span class="symbol">Xe</span><br>Xenon<br>131.29</td>
+          <td id="clickRB" class="alkali-metals hoverRB">37<br><span class="symbol">Rb</span><br>Rubidium<br>85.4678</td>
+          <td id="clickSR" class="alkaline-earth-metals hoverSR">38<br><span class="symbol">Sr</span><br>Strontium<br>87.62</td>
+          <td id="clickY" class="transition-metals hoverY">39<br><span class="symbol">Y</span><br>Yttrium<br>88.90584</td>
+          <td id="clickZR" class="transition-metals hoverZR">40<br><span class="symbol">Zr</span><br>Zirconium<br>91.224</td>
+          <td id="clickNB" class="transition-metals hoverNB">41<br><span class="symbol">Nb</span><br>Niobium<br>92.90637</td>
+          <td id="clickMO" class="transition-metals hoverMO">42<br><span class="symbol">Mo</span><br>Molybdenum<br>95.95</td>
+          <td id="clickTC" class="transition-metals hoverTC">43<br><span class="symbol">Tc</span><br>Technetium<br>(98)</td>
+          <td id="clickRU" class="transition-metals hoverRU">44<br><span class="symbol">Ru</span><br>Ruthenium<br>101.07</td>
+          <td id="clickRH" class="transition-metals hoverRH">45<br><span class="symbol">Rh</span><br>Rhodium<br>102.91</td>
+          <td id="clickPD" class="transition-metals hoverPD">46<br><span class="symbol">Pd</span><br>Palladium<br>106.42</td>
+          <td id="clickAG" class="transition-metals hoverAG">47<br><span class="symbol">Ag</span><br>Silver<br>107.87</td>
+          <td id="clickCD" class="post-transition-metals hoverCD">48<br><span class="symbol">Cd</span><br>Cadmium<br>112.41</td>
+          <td id="clickIN" class="post-transition-metals hoverIN">49<br><span class="symbol">In</span><br>Indium<br>114.82</td>
+          <td id="clickSN" class="post-transition-metals hoverSN">50<br><span class="symbol">Sn</span><br>Tin<br>118.71</td>
+          <td id="clickSB" class="metalloids hoverSB">51<br><span class="symbol">Sb</span><br>Antimony<br>121.76</td>
+          <td id="clickTE" class="metalloids hoverTE">52<br><span class="symbol">Te</span><br>Tellurium<br>127.60</td>
+          <td id="clickI" class="reactive-nonmetals hoverI">53<br><span class="symbol">I</span><br>Iodine<br>126.90</td>
+          <td id="clickXE" class="noble-gasses hoverXE">54<br><span class="symbol">Xe</span><br>Xenon<br>131.29</td>
         </tr>
         
         <tr>
-          <td class="alkali-metals hoverCS">55<br><span class="symbol">Cs</span><br>Caesium<br>132.90545196</td>
-          <td class="alkaline-earth-metals hoverBA">56<br><span class="symbol">Ba</span><br>Barium<br>137.327</td>
+          <td id="clickCS" class="alkali-metals hoverCS">55<br><span class="symbol">Cs</span><br>Caesium<br>132.90545196</td>
+          <td id="clickBA" class="alkaline-earth-metals hoverBA">56<br><span class="symbol">Ba</span><br>Barium<br>137.327</td>
           <td class="transition-metals"></td>
-          <td class="transition-metals hoverHF">72<br><span class="symbol">Hf</span><br>Hafnium<br>178.49</td>
-          <td class="transition-metals hoverTA">73<br><span class="symbol">Ta</span><br>Tantalum<br>180.94788</td>
-          <td class="transition-metals hoverW">74<br><span class="symbol">W</span><br>Tungsten<br>183.84</td>
-          <td class="transition-metals hoverRE">75<br><span class="symbol">Re</span><br>Rhenium<br>186.21</td>
-          <td class="transition-metals hoverOS">76<br><span class="symbol">Os</span><br>Osmium<br>190.23</td>
-          <td class="transition-metals hoverIR">77<br><span class="symbol">Ir</span><br>Iridium<br>192.22</td>
-          <td class="transition-metals hoverPT">78<br><span class="symbol">Pt</span><br>Platinum<br>195.08</td>
-          <td class="transition-metals hoverAU">79<br><span class="symbol">Au</span><br>Gold<br>196.97</td>
-          <td class="post-transition-metals hoverHG">80<br><span class="symbol">Hg</span><br>Mercury<br>200.59</td>
-          <td class="post-transition-metals hoverTL">81<br><span class="symbol">Tl</span><br>Thallium<br>204.38</td>
-          <td class="post-transition-metals hoverPB">82<br><span class="symbol">Pb</span><br>Lead<br>207.2</td>
-          <td class="post-transition-metals hoverBI">83<br><span class="symbol">Bi</span><br>Bismuth<br>208.98</td>
-          <td class="post-transition-metals hoverPO">84<br><span class="symbol">Po</span><br>Potonium<br>(209)</td>
-          <td class="metalloids hoverAT">85<br><span class="symbol">At</span><br>Astatine<br>(210)</td>
-          <td class="noble-gasses hoverRN">86<br><span class="symbol">Rn</span><br>Radon<br>(222)</td>
+          <td id="clickHF" class="transition-metals hoverHF">72<br><span class="symbol">Hf</span><br>Hafnium<br>178.49</td>
+          <td id="clickTA" class="transition-metals hoverTA">73<br><span class="symbol">Ta</span><br>Tantalum<br>180.94788</td>
+          <td id="clickW" class="transition-metals hoverW">74<br><span class="symbol">W</span><br>Tungsten<br>183.84</td>
+          <td id="clickRE" class="transition-metals hoverRE">75<br><span class="symbol">Re</span><br>Rhenium<br>186.21</td>
+          <td id="clickOS" class="transition-metals hoverOS">76<br><span class="symbol">Os</span><br>Osmium<br>190.23</td>
+          <td id="clickIR" class="transition-metals hoverIR">77<br><span class="symbol">Ir</span><br>Iridium<br>192.22</td>
+          <td id="clickPT" class="transition-metals hoverPT">78<br><span class="symbol">Pt</span><br>Platinum<br>195.08</td>
+          <td id="clickAU" class="transition-metals hoverAU">79<br><span class="symbol">Au</span><br>Gold<br>196.97</td>
+          <td id="clickHG" class="post-transition-metals hoverHG">80<br><span class="symbol">Hg</span><br>Mercury<br>200.59</td>
+          <td id="clickTL" class="post-transition-metals hoverTL">81<br><span class="symbol">Tl</span><br>Thallium<br>204.38</td>
+          <td id="clickPB" class="post-transition-metals hoverPB">82<br><span class="symbol">Pb</span><br>Lead<br>207.2</td>
+          <td id="clickBI" class="post-transition-metals hoverBI">83<br><span class="symbol">Bi</span><br>Bismuth<br>208.98</td>
+          <td id="clickPO" class="post-transition-metals hoverPO">84<br><span class="symbol">Po</span><br>Potonium<br>(209)</td>
+          <td id="clickAT" class="metalloids hoverAT">85<br><span class="symbol">At</span><br>Astatine<br>(210)</td>
+          <td id="clickRN" class="noble-gasses hoverRN">86<br><span class="symbol">Rn</span><br>Radon<br>(222)</td>
         </tr>
         
         <tr>
-          <td class="alkali-metals hoverFR">87<br><span class="symbol">Fr</span><br>Francium<br>(223)</td>
-          <td class="alkaline-earth-metals hoverRA">88<br><span class="symbol">Ra</span><br>Radium<br>(226)</td>
+          <td id="clickFR" class="alkali-metals hoverFR">87<br><span class="symbol">Fr</span><br>Francium<br>(223)</td>
+          <td id="clickRA" class="alkaline-earth-metals hoverRA">88<br><span class="symbol">Ra</span><br>Radium<br>(226)</td>
           <td class="transition-metals"></td>
-          <td class="transition-metals hoverRF">104<br><span class="symbol">Rf</span><br>Rutherfordium<br>(267)</td>
-          <td class="transition-metals hoverDB">105<br><span class="symbol">Db</span><br>Dubnium<br>(268)</td>
-          <td class="transition-metals hoverSG">106<br><span class="symbol">Sg</span><br>Seaborgium<br>(269)</td>
-          <td class="transition-metals hoverBH">107<br><span class="symbol">Bh</span><br>Bohrium<br>(270)</td>
-          <td class="transition-metals hoverHS">108<br><span class="symbol">Hs</span><br>Hassium<br>(277)</td>
-          <td class="unknown hoverMT">109<br><span class="symbol">Mt</span><br>Meitnerium<br>(278)</td>
-          <td class="unknown hoverDS">110<br><span class="symbol">Ds</span><br>Darmstadtium<br>(281)</td>
-          <td class="unknown hoverRG">111<br><span class="symbol">Rg</span><br>Roentgenium<br>(282)</td>
-          <td class="post-transition-metals hoverCN">112<br><span class="symbol">Cn</span><br>Copernicium<br>(285)</td>
-          <td class="unknown hoverNH">113<br><span class="symbol">Nh</span><br>Nihonium<br>(286)</td>
-          <td class="unknown hoverFL">114<br><span class="symbol">Fl</span><br>Flerovium<br>(289)</td>
-          <td class="unknown hoverMC">115<br><span class="symbol">Mc</span><br>Moscovium<br>(290)</td>
-          <td class="unknown hoverLV">116<br><span class="symbol">Lv</span><br>Litermorium<br>(293)</td>
-          <td class="unknown hoverTS">117<br><span class="symbol">Ts</span><br>Tennessine<br>(294)</td>
-          <td class="unknown hoverOG">118<br><span class="symbol">Og</span><br>Oganesson<br>(294)</td>
+          <td id="clickRF" class="transition-metals hoverRF">104<br><span class="symbol">Rf</span><br>Rutherfordium<br>(267)</td>
+          <td id="clickDB" class="transition-metals hoverDB">105<br><span class="symbol">Db</span><br>Dubnium<br>(268)</td>
+          <td id="clickSG" class="transition-metals hoverSG">106<br><span class="symbol">Sg</span><br>Seaborgium<br>(269)</td>
+          <td id="clickBH" class="transition-metals hoverBH">107<br><span class="symbol">Bh</span><br>Bohrium<br>(270)</td>
+          <td id="clickHS" class="transition-metals hoverHS">108<br><span class="symbol">Hs</span><br>Hassium<br>(277)</td>
+          <td id="clickMT" class="unknown hoverMT">109<br><span class="symbol">Mt</span><br>Meitnerium<br>(278)</td>
+          <td id="clickDS" class="unknown hoverDS">110<br><span class="symbol">Ds</span><br>Darmstadtium<br>(281)</td>
+          <td id="clickRG"class="unknown hoverRG">111<br><span class="symbol">Rg</span><br>Roentgenium<br>(282)</td>
+          <td id="clickCN" class="post-transition-metals hoverCN">112<br><span class="symbol">Cn</span><br>Copernicium<br>(285)</td>
+          <td id="clickNH" class="unknown hoverNH">113<br><span class="symbol">Nh</span><br>Nihonium<br>(286)</td>
+          <td id="clickFL" class="unknown hoverFL">114<br><span class="symbol">Fl</span><br>Flerovium<br>(289)</td>
+          <td id="clickMC" class="unknown hoverMC">115<br><span class="symbol">Mc</span><br>Moscovium<br>(290)</td>
+          <td id="clickLV" class="unknown hoverLV">116<br><span class="symbol">Lv</span><br>Litermorium<br>(293)</td>
+          <td id="clickTS" class="unknown hoverTS">117<br><span class="symbol">Ts</span><br>Tennessine<br>(294)</td>
+          <td id="clickOG" Class="unknown hoverOG">118<br><span class="symbol">Og</span><br>Oganesson<br>(294)</td>
         </tr>
       
         <tr>
@@ -130,48 +134,47 @@
       
         <tr>
           <td class="blank-block" colspan="2"></td>
-          <td class="lanthanides hoverLA">57<br><span class="symbol">La</span><br>Lanthanum<br>138.91</td>
-          <td class="lanthanides hoverCE">58<br><span class="symbol">Ce</span><br>Cerium<br>140.12</td>
-          <td class="lanthanides hoverPR">59<br><span class="symbol">Pr</span><br>Praseodymium<br>140.91</td>
-          <td class="lanthanides hoverND">60<br><span class="symbol">Nd</span><br>Neodymium<br>144.24</td>
-          <td class="lanthanides hoverPM">61<br><span class="symbol">Pm</span><br>Promethium<br>(145)</td>
-          <td class="lanthanides hoverSM">62<br><span class="symbol">Sm</span><br>Samarium<br>150.36</td>
-          <td class="lanthanides hoverEU">63<br><span class="symbol">Eu</span><br>Europium<br>151.96</td>
-          <td class="lanthanides hoverGD">64<br><span class="symbol">Gd</span><br>Gadolinium<br>157.25</td>
-          <td class="lanthanides hoverTB">65<br><span class="symbol">Tb</span><br>Terbium<br>158.93</td>
-          <td class="lanthanides hoverDY">66<br><span class="symbol">Dy</span><br>Dysprosium<br>162.50</td>
-          <td class="lanthanides hoverHO">67<br><span class="symbol">Ho</span><br>Holmiun<br>164.93</td>
-          <td class="lanthanides hoverER">68<br><span class="symbol">Er</span><br>Erbium<br>167.26</td>
-          <td class="lanthanides hoverTM">69<br><span class="symbol">Tm</span><br>Thulium<br>168.93</td>
-          <td class="lanthanides hoverYB">70<br><span class="symbol">Yb</span><br>Yiterbium<br>173.05</td>
-          <td class="lanthanides hoverLU">71<br><span class="symbol">Lu</span><br>Lutetium<br>174.97</td>
+          <td id="clickLA" class="lanthanides hoverLA">57<br><span class="symbol">La</span><br>Lanthanum<br>138.91</td>
+          <td id="clickCE" class="lanthanides hoverCE">58<br><span class="symbol">Ce</span><br>Cerium<br>140.12</td>
+          <td id="clickPR" class="lanthanides hoverPR">59<br><span class="symbol">Pr</span><br>Praseodymium<br>140.91</td>
+          <td id="clickND" class="lanthanides hoverND">60<br><span class="symbol">Nd</span><br>Neodymium<br>144.24</td>
+          <td id="clickPM" class="lanthanides hoverPM">61<br><span class="symbol">Pm</span><br>Promethium<br>(145)</td>
+          <td id="clickSM" class="lanthanides hoverSM">62<br><span class="symbol">Sm</span><br>Samarium<br>150.36</td>
+          <td id="clickEU" class="lanthanides hoverEU">63<br><span class="symbol">Eu</span><br>Europium<br>151.96</td>
+          <td id="clickGD" class="lanthanides hoverGD">64<br><span class="symbol">Gd</span><br>Gadolinium<br>157.25</td>
+          <td id="clickTB" class="lanthanides hoverTB">65<br><span class="symbol">Tb</span><br>Terbium<br>158.93</td>
+          <td id="clickDY" class="lanthanides hoverDY">66<br><span class="symbol">Dy</span><br>Dysprosium<br>162.50</td>
+          <td id="clickHO" class="lanthanides hoverHO">67<br><span class="symbol">Ho</span><br>Holmiun<br>164.93</td>
+          <td id="clickER" class="lanthanides hoverER">68<br><span class="symbol">Er</span><br>Erbium<br>167.26</td>
+          <td id="clickTM" class="lanthanides hoverTM">69<br><span class="symbol">Tm</span><br>Thulium<br>168.93</td>
+          <td id="clickYB" class="lanthanides hoverYB">70<br><span class="symbol">Yb</span><br>Yiterbium<br>173.05</td>
+          <td id="clickLU" class="lanthanides hoverLU">71<br><span class="symbol">Lu</span><br>Lutetium<br>174.97</td>
           <td class="blank-block"></td>
         </tr>
         
         <tr>
           <td class="blank-block" colspan="2"></td>
-          <td class="actinides hoverAC">89<br><span class="symbol">Ac</span><br>Actinium<br>(227)</td>
-          <td class="actinides hoverTH">90<br><span class="symbol">Th</span><br>Thorium<br>232.04</td>
-          <td class="actinides hoverPA">91<br><span class="symbol">Pa</span><br>Protactinium<br>231.04</td>
-          <td class="actinides hoverU">92<br><span class="symbol">U</span><br>Uranium<br>238.03</td>
-          <td class="actinides hoverNP">93<br><span class="symbol">Np</span><br>Neptunium<br>(237)/td>
-          <td class="actinides hoverPU">94<br><span class="symbol">Pu</span><br>Plutonium<br>(244)</td>
-          <td class="actinides hoverAM">95<br><span class="symbol">Am</span><br>Americium<br>(243)</td>
-          <td class="actinides hoverCM">96<br><span class="symbol">Cm</span><br>Curium<br>(247)</td>
-          <td class="actinides hoverBK">97<br><span class="symbol">Bk</span><br>Berkelium<br>(247)</td>
-          <td class="actinides hoverCF">98<br><span class="symbol">Cf</span><br>Californium<br>(251)</td>
-          <td class="actinides hoverES">99<br><span class="symbol">Es</span><br>Einsteinium<br>(252)</td>
-          <td class="actinides hoverFM">100<br><span class="symbol">Fm</span><br>Fermium<br>(257)</td>
-          <td class="actinides hoverMD">101<br><span class="symbol">Md</span><br>Mendelevium<br>(258)</td>
-          <td class="actinides hoverNO">102<br><span class="symbol">No</span><br>Nobelium<br>(259)</td>
-          <td class="actinides hoverLR">103<br><span class="symbol">Lr</span><br>Lawrencium<br>(266)</td>
+          <td id="clickAC" class="actinides hoverAC">89<br><span class="symbol">Ac</span><br>Actinium<br>(227)</td>
+          <td id="clickTH" class="actinides hoverTH">90<br><span class="symbol">Th</span><br>Thorium<br>232.04</td>
+          <td id="clickPA" class="actinides hoverPA">91<br><span class="symbol">Pa</span><br>Protactinium<br>231.04</td>
+          <td id="clickU" class="actinides hoverU">92<br><span class="symbol">U</span><br>Uranium<br>238.03</td>
+          <td id="clickNP" class="actinides hoverNP">93<br><span class="symbol">Np</span><br>Neptunium<br>(237)/td>
+          <td id="clickPU" class="actinides hoverPU">94<br><span class="symbol">Pu</span><br>Plutonium<br>(244)</td>
+          <td id="clickAM" class="actinides hoverAM">95<br><span class="symbol">Am</span><br>Americium<br>(243)</td>
+          <td id="clickCM" class="actinides hoverCM">96<br><span class="symbol">Cm</span><br>Curium<br>(247)</td>
+          <td id="clickBK" class="actinides hoverBK">97<br><span class="symbol">Bk</span><br>Berkelium<br>(247)</td>
+          <td id="clickCF" class="actinides hoverCF">98<br><span class="symbol">Cf</span><br>Californium<br>(251)</td>
+          <td id="clickES" class="actinides hoverES">99<br><span class="symbol">Es</span><br>Einsteinium<br>(252)</td>
+          <td id="clickFM" class="actinides hoverFM">100<br><span class="symbol">Fm</span><br>Fermium<br>(257)</td>
+          <td id="clickMD" class="actinides hoverMD">101<br><span class="symbol">Md</span><br>Mendelevium<br>(258)</td>
+          <td id="clickNO" class="actinides hoverNO">102<br><span class="symbol">No</span><br>Nobelium<br>(259)</td>
+          <td id="clickLR" class="actinides hoverLR">103<br><span class="symbol">Lr</span><br>Lawrencium<br>(266)</td>
         </tr>
       </table>
     </div>
 
+  <div id="topColor"></div>
 
-
-
-
+<script src="Periodic table.js"></script>
 </body>
 </html>
