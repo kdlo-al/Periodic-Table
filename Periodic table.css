@@ -1,17 +1,15 @@
-
-
 body {
   width: 100%;
 }
 
-#top{
+#top {
   overflow-x: auto;
 }
 
 table {
   text-align: center;
   table-layout: fixed;
-  width: 92.81rem
+  width: 92.81rem;
 }
 
 caption {
@@ -34,241 +32,595 @@ td {
   /*word-break: break-all;*/
 }
 
-.hoverLI:hover {background-color: #de6e6e; cursor: pointer;}
-
-.hoverNA:hover {background-color: #de6e6e; cursor: pointer;} 
-
-.hoverK:hover {background-color: #de6e6e; cursor: pointer;}
-
-.hoverRB:hover {background-color: #de6e6e; cursor: pointer;} 
-
-.hoverCS:hover {background-color: #de6e6e; cursor: pointer;} 
-
-.hoverFR:hover {background-color: #de6e6e; cursor: pointer;}
-
-.hoverBE:hover {background-color: #8a6ede; cursor: pointer;} 
-
-.hoverMG:hover {background-color: #8a6ede; cursor: pointer;} 
-
-.hoverCA:hover {background-color: #8a6ede; cursor: pointer;}
-
-.hoverSR:hover {background-color: #8a6ede; cursor: pointer;} 
-
-.hoverBA:hover {background-color: #8a6ede; cursor: pointer;} 
-
-.hoverRA:hover {background-color: #8a6ede; cursor: pointer;}
-
-.hoverSC:hover {background-color:	#59b9d9; cursor: pointer;}
-
-.hoverTI:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverV:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverCR:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverMN:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverFE:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverCO:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverNI:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverCU:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverY:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverZR:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverNB:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverMO:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverTC:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverRU:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverRH:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverPD:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverAG:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverHF:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverTA:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverW:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverRE:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverOS:hover {background-color: #59b9d9; cursor: pointer;} 
-
-.hoverIR:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverPT:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverAU:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverRF:hover {background-color: #59b9d9; cursor: pointer;} 
-
-.hoverDB:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverSG:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverBH:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverHS:hover {background-color: #59b9d9; cursor: pointer;}
-
-.hoverAI:hover {background-color: #6ede6e; cursor: pointer;}
-
-.hoverZN:hover {background-color: #6ede6e; cursor: pointer;} 
-
-.hoverGA:hover {background-color: #6ede6e; cursor: pointer;} 
-
-.hoverCD:hover {background-color: #6ede6e; cursor: pointer;}
-
-.hoverIN:hover {background-color: #6ede6e; cursor: pointer;} 
-
-.hoverSN:hover {background-color: #6ede6e; cursor: pointer;}
-
-.hoverHG:hover {background-color: #6ede6e; cursor: pointer;} 
-
-.hoverTL:hover {background-color: #6ede6e; cursor: pointer;}
-
-.hoverPB:hover {background-color: #6ede6e; cursor: pointer;}
-
-.hoverBI:hover {background-color: #6ede6e; cursor: pointer;}
-
-.hoverPO:hover {background-color: #6ede6e; cursor: pointer;} 
-
-.hoverCN:hover {background-color: #6ede6e; cursor: pointer;} 
-
-.hoverB:hover {background-color: #dec26e; cursor: pointer;}
-
-.hoverSI:hover {background-color: #dec26e; cursor: pointer;}
-
-.hoverGE:hover {background-color: #dec26e; cursor: pointer;} 
-
-.hoverAS:hover {background-color: #dec26e; cursor: pointer;} 
-
-.hoverSB:hover {background-color: #dec26e; cursor: pointer;}
-
-.hoverTE:hover {background-color: #dec26e; cursor: pointer;} 
-
-.hoverAT:hover {background-color: #dec26e; cursor: pointer;}
-
-.hoverH:hover {background-color: #dede6e; cursor: pointer;}
-
-.hoverC:hover {background-color: #dede6e; cursor: pointer;} 
-
-.hoverN:hover {background-color: #dede6e; cursor: pointer;} 
-
-.hoverO:hover {background-color: #dede6e; cursor: pointer;}
-
-.hoverF:hover {background-color: #dede6e; cursor: pointer;}
-
-.hoverP:hover {background-color: #dede6e; cursor: pointer;} 
-
-.hoverS:hover {background-color: #dede6e; cursor: pointer;} 
-
-.hoverCL:hover {background-color: #dede6e; cursor: pointer;}
-
-.hoverSE:hover {background-color: #dede6e; cursor: pointer;} 
-
-.hoverBR:hover {background-color: #dede6e; cursor: pointer;} 
-
-.hoverI:hover {background-color: #dede6e; cursor: pointer;} 
-
-.hoverHE:hover {background-color: #de8a6e; cursor: pointer;} 
-
-.hoverNE:hover {background-color: #de8a6e; cursor: pointer;}  
-
-.hoverAR:hover {background-color: #de8a6e; cursor: pointer;}  
-
-.hoverKR:hover {background-color: #de8a6e; cursor: pointer;}  
-
-.hoverXE:hover {background-color: #de8a6e; cursor: pointer;}  
-
-.hoverRN:hover {background-color: #de8a6e; cursor: pointer;}
-
-.hoverMT:hover {background-color: #999999; cursor: pointer;}
-
-.hoverDS:hover {background-color: #999999; cursor: pointer;}
-
-.hoverRG:hover {background-color: #999999; cursor: pointer;} 
-
-.hoverNH:hover {background-color: #999999; cursor: pointer;} 
-
-.hoverFL:hover {background-color: #999999; cursor: pointer;} 
-
-.hoverMC:hover {background-color: #999999; cursor: pointer;} 
-
-.hoverLV:hover {background-color: #999999; cursor: pointer;} 
-
-.hoverTS:hover {background-color: #999999; cursor: pointer;} 
-
-.hoverOG:hover {background-color: #999999; cursor: pointer;} 
-
-.hoverLA:hover {background-color: #2080df; cursor: pointer;}
-
-.hoverCE:hover {background-color: #2080df; cursor: pointer;}
-
-.hoverPR:hover {background-color: #2080df; cursor: pointer;} 
-
-.:hover {background-color: #2080df; cursor: pointer;} 
-
-.hoverPM:hover {background-color: #2080df; cursor: pointer;}
-
-.hoverSM:hover {background-color: #2080df; cursor: pointer;}
-
-.hoverEU:hover {background-color: #2080df; cursor: pointer;} 
-
-.hoverGD:hover {background-color: #2080df; cursor: pointer;}
-
-.hoverTB:hover {background-color: #2080df; cursor: pointer;}
-
-.hoverDY:hover {background-color: #2080df; cursor: pointer;} 
-
-.hoverHO:hover {background-color: #2080df; cursor: pointer;} 
-
-.hoverER:hover {background-color: #2080df; cursor: pointer;} 
-
-.hoverTM:hover {background-color: #2080df; cursor: pointer;} 
-
-.hoverYB:hover {background-color: #2080df; cursor: pointer;} 
-
-.hoverLU:hover {background-color: #2080df; cursor: pointer;}
-
-.hoverAC:hover {background-color: #64b4a0; cursor: pointer;}
-
-.hoverTH:hover {background-color: #64b4a0; cursor: pointer;} 
-
-.hoverPA:hover {background-color: #64b4a0; cursor: pointer;} 
-
-.hoverU:hover {background-color: #64b4a0; cursor: pointer;} 
-
-.hoverNP:hover {background-color: #64b4a0; cursor: pointer;}
-
-.hoverPU:hover {background-color: #64b4a0; cursor: pointer;}
-
-.hoverAM:hover {background-color: #64b4a0; cursor: pointer;}
-
-.hoverCM:hover {background-color: #64b4a0; cursor: pointer;} 
-
-.hoverBK:hover {background-color: #64b4a0; cursor: pointer;}
-
-.hoverCF:hover {background-color: #64b4a0; cursor: pointer;}
-
-.hoverES:hover {background-color: #64b4a0; cursor: pointer;} 
-
-.hoverFM:hover {background-color: #64b4a0; cursor: pointer;} 
-
-.hoverMD:hover {background-color: #64b4a0; cursor: pointer;} 
-
-.hoverNO:hover {background-color: #64b4a0; cursor: pointer;} 
-
-.hoverLR:hover {background-color: #64b4a0; cursor: pointer;}
+.hoverLI:hover {
+  background-color: #de6e6e;
+  cursor: pointer;
+}
+
+.hoverNA:hover {
+  background-color: #de6e6e;
+  cursor: pointer;
+}
+
+.hoverK:hover {
+  background-color: #de6e6e;
+  cursor: pointer;
+}
+
+.hoverRB:hover {
+  background-color: #de6e6e;
+  cursor: pointer;
+}
+
+.hoverCS:hover {
+  background-color: #de6e6e;
+  cursor: pointer;
+}
+
+.hoverFR:hover {
+  background-color: #de6e6e;
+  cursor: pointer;
+}
+
+.hoverBE:hover {
+  background-color: #8a6ede;
+  cursor: pointer;
+}
+
+.hoverMG:hover {
+  background-color: #8a6ede;
+  cursor: pointer;
+}
+
+.hoverCA:hover {
+  background-color: #8a6ede;
+  cursor: pointer;
+}
+
+.hoverSR:hover {
+  background-color: #8a6ede;
+  cursor: pointer;
+}
+
+.hoverBA:hover {
+  background-color: #8a6ede;
+  cursor: pointer;
+}
+
+.hoverRA:hover {
+  background-color: #8a6ede;
+  cursor: pointer;
+}
+
+.hoverSC:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverTI:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverV:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverCR:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverMN:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverFE:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverCO:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverNI:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverCU:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverY:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverZR:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverNB:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverMO:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverTC:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverRU:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverRH:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverPD:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverAG:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverHF:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverTA:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverW:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverRE:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverOS:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverIR:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverPT:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverAU:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverRF:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverDB:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverSG:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverBH:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverHS:hover {
+  background-color: #59b9d9;
+  cursor: pointer;
+}
+
+.hoverAI:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverZN:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverGA:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverCD:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverIN:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverSN:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverHG:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverTL:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverPB:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverBI:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverPO:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverCN:hover {
+  background-color: #6ede6e;
+  cursor: pointer;
+}
+
+.hoverB:hover {
+  background-color: #dec26e;
+  cursor: pointer;
+}
+
+.hoverSI:hover {
+  background-color: #dec26e;
+  cursor: pointer;
+}
+
+.hoverGE:hover {
+  background-color: #dec26e;
+  cursor: pointer;
+}
+
+.hoverAS:hover {
+  background-color: #dec26e;
+  cursor: pointer;
+}
+
+.hoverSB:hover {
+  background-color: #dec26e;
+  cursor: pointer;
+}
+
+.hoverTE:hover {
+  background-color: #dec26e;
+  cursor: pointer;
+}
+
+.hoverAT:hover {
+  background-color: #dec26e;
+  cursor: pointer;
+}
+
+.hoverH:hover {
+  background-color: #dede6e;
+  cursor: pointer;
+}
+
+.hoverC:hover {
+  background-color: #dede6e;
+  cursor: pointer;
+}
+
+.hoverN:hover {
+  background-color: #dede6e;
+  cursor: pointer;
+}
+
+.hoverO:hover {
+  background-color: #dede6e;
+  cursor: pointer;
+}
+
+.hoverF:hover {
+  background-color: #dede6e;
+  cursor: pointer;
+}
+
+.hoverP:hover {
+  background-color: #dede6e;
+  cursor: pointer;
+}
+
+.hoverS:hover {
+  background-color: #dede6e;
+  cursor: pointer;
+}
+
+.hoverCL:hover {
+  background-color: #dede6e;
+  cursor: pointer;
+}
+
+.hoverSE:hover {
+  background-color: #dede6e;
+  cursor: pointer;
+}
+
+.hoverBR:hover {
+  background-color: #dede6e;
+  cursor: pointer;
+}
+
+.hoverI:hover {
+  background-color: #dede6e;
+  cursor: pointer;
+}
+
+.hoverHE:hover {
+  background-color: #de8a6e;
+  cursor: pointer;
+}
+
+.hoverNE:hover {
+  background-color: #de8a6e;
+  cursor: pointer;
+}
+
+.hoverAR:hover {
+  background-color: #de8a6e;
+  cursor: pointer;
+}
+
+.hoverKR:hover {
+  background-color: #de8a6e;
+  cursor: pointer;
+}
+
+.hoverXE:hover {
+  background-color: #de8a6e;
+  cursor: pointer;
+}
+
+.hoverRN:hover {
+  background-color: #de8a6e;
+  cursor: pointer;
+}
+
+.hoverMT:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+.hoverDS:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+.hoverRG:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+.hoverNH:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+.hoverFL:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+.hoverMC:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+.hoverLV:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+.hoverTS:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+.hoverOG:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+.hoverLA:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverCE:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverPR:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverPM:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverSM:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverEU:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverGD:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverTB:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverDY:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverHO:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverER:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverTM:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverYB:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverLU:hover {
+  background-color: #2080df;
+  cursor: pointer;
+}
+
+.hoverAC:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverTH:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverPA:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverU:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverNP:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverPU:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverAM:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverCM:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverBK:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverCF:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverES:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverFM:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverMD:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverNO:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
+
+.hoverLR:hover {
+  background-color: #64b4a0;
+  cursor: pointer;
+}
 
 .reactive-nonmetals {
   background-color: hsl(60, 63%, 80%);
@@ -331,7 +683,7 @@ td {
 }
 
 #centerBox {
-  display: none; 
+  display: none;
   position: absolute;
   /*right: auto;
   left: auto;*/
@@ -355,9 +707,19 @@ td {
 }
 
 @media only screen and (max-width: 1620px) {
-  table {width: 46.375rem}
-  .symbol {font-size: .1875rem}
-  td {font-size: .1875rem}
+  table {
+    width: 46.375rem;
+  }
+  .symbol {
+    font-size: 0.1875rem;
+  }
+  td {
+    font-size: 0.1875rem;
+  }
+  #frm {
+    width: 600px;
+    height: 400px;
+  }
 }
 
 /*@media only screen and (max-width: 890px) {
